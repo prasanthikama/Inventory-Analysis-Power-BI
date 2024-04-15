@@ -22,12 +22,18 @@ Average value of inventory=starting value+ending value/2
 Inventory turnover =COGS/Avg value of inventory
 ABC Analysis
 1.Revenue
+
 2.percentage of total value.
+
 3.cumulative increase
+
 4.ABC
 What is ABC Analysis: A items will cover up to seventy percent of total revenue, B items will cover the following twenty percent, and C items will represent the remaining percentage
+
 Revenue_2020=Stock[2020_units_sold]*Stock[Retail_Price]
+
 profit_2020 = Stock[2020_units_sold]*Stock[Retail_Price]-Stock[2020_units_sold]*Stock[COGS]
+
 Total_orders = CALCULATE(sum(Orders[Quantity]),FILTER(orders,Stock[SKU-ID]=Orders[SKU]))
 
 Quantity_2021 = 
