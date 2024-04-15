@@ -4,15 +4,20 @@ Inventory Analysis
 In this project, you will:
 •	Prepare your data ready for analysis using Power Query
 •	Write intermediate DAX functions for data manipulation
+
 Cost of goods sold, or COGS: refers to the cost of producing or acquiring products that a company sells in a determined period.
 COGS calculated column
 COGS=[factory_labor]+[factory_equipment_rent]+[raw_material]
+
 Revenue : Revenue is the amount of money a company receives in exchange for its goods and services. The simplest way companies calculate revenue is by multiplying the total number of units sold by their selling price.
+
 Caluculate column Revenue _2020year
 Revenue _2020year=[2020_units_sold]*[Retail_Price]
+
 Profit: The gross profit is the amount resulting after subtracting costs associated with making or acquiring products. It is calculated by subtracting COGS from total revenue.
 Caluculate column for profit_2020
 profit_2020= [Revenue_2020]-[COGS]
+
 Average value of inventory=starting value+ending value/2
 Inventory turnover =COGS/Avg value of inventory
 ABC Analysis
